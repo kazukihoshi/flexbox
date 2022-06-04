@@ -22,11 +22,44 @@
   margin: 0 10px;
 }
 
-.side-box {
-  width: 300px;
-  background-color: #CBFFD3;
+.main {
+  display: flex;
+  justify-content: center;
 }
 
-.main-box {
-  background-color: #007700;
+.sidebar {
+  background-color: #99FF66;
+  width: 300px;
+}
+.content {
+  background-color: #00aa00;
+  padding: 20px;
+  max-width: 700px;
+  flex-grow: 1;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.content > div {
+  background-color: #FFFF44;
+  flex-basis: 200px;
+  height: 130px;
+  margin: 10px;
+}
+
+.footer {
+  background-color: #2c7cff;
+  padding: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.footer > div {
+  background-color: #77eeff;
+  max-width: 600px;
+  width: 45%;
+  height: 40px;
+  margin: 10px;
 }
