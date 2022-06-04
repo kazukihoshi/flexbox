@@ -3,3 +3,30 @@
   margin: 0;
   box-sizing: border-box;
 }
+
+.header {
+  background-color: #F0F;
+  padding: 30px 20px;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.header > :first-child {
+  margin-right: auto;
+}
+
+.header > div {
+  background-color: #FF99FF;
+  height: 70px;
+  flex-basis: 140px;
+  margin: 0 10px;
+}
+
+.side-box {
+  width: 300px;
+  background-color: #CBFFD3;
+}
+
+.main-box {
+  background-color: #007700;
+}
